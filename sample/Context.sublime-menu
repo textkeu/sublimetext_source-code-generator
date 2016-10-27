@@ -1,0 +1,25 @@
+[{
+  "caption": "Source Code Generator",
+  "children": [
+    {
+      "caption": "HTML",
+      "children": [
+				{
+				  "caption": "html",
+				  "command": "source_code_generator",
+					"args": { "filepath": "/templates/HTML/html.tmpl"}
+				}
+			]
+    },
+    {
+      "caption": "Perl",
+      "children": [
+        {
+          "caption": "perl env",
+          "command": "source_code_generator",
+          "args": { "filepath": "/templates/Perl/perl-env.tmpl"}
+        }
+      ]
+    }
+  ]
+}]

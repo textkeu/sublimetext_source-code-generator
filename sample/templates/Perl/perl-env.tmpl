@@ -1,0 +1,12 @@
+#! /usr/local/bin/perl
+
+use strict;
+use CGI;
+
+my $cgi = new CGI;
+
+print $cgi->header();
+
+foreach my $key ( sort keys(%ENV)) {
+  print("$key: $ENV{$key}<br/>\n");
+}

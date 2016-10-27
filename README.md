@@ -55,3 +55,6 @@ Plugin for sublime text to get your job done faster and avoid repetitive work.
 3. Generate source code
 * Click right button > hover in option **Source Code Generator**
 * hover into what you want to generate
+
+# Tips
+1. For demonstration: You can copy all files and folders in folder **sample** to **SublimeText's_Package_folder**/sublimetext_source-code-generator/
