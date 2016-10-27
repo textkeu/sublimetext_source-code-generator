@@ -16,7 +16,7 @@ Plugin for sublime text to get your job done faster and avoid repetitive work.
 
 # How to use
 1. Make your source code template file in **SublimeText's_Package_folder**/sublimetext_source-code-generator/templates/
-* For Example :  **HTML/html.tmpl**
+    * For Example :  **HTML/html.tmpl**
 ```html
 <!DOCTYPE html>
 <html lang="ja">
@@ -33,7 +33,7 @@ Plugin for sublime text to get your job done faster and avoid repetitive work.
 ```
 
 2. Add template to Sublimetext's menu into **SublimeText's_Package_folder**/sublimetext_source-code-generator/Context.sublime-menu
-* For Example :  
+    * For Example :  
 ````
 [{
   "caption": "Source Code Generator",
@@ -53,11 +53,11 @@ Plugin for sublime text to get your job done faster and avoid repetitive work.
 
 ````
 3. Generate source code
-* Click right button > hover in option **Source Code Generator**
-* hover into what you want to generate
+    * Click right button > hover in option **Source Code Generator**
+    * hover into what you want to generate
 
 # Notes
 1. please remove folder **sample** to avoid duplicate menu.
 2. For demonstration: 
-* You can copy all files and folders in folder **sample** to  **SublimeText's_Package_folder**/sublimetext_source-code-generator/
-* remove folder **sample**
+    * You can copy all files and folders in folder **sample** to  **SublimeText's_Package_folder**/sublimetext_source-code-generator/
+    * remove folder **sample**
