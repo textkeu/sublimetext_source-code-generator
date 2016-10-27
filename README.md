@@ -8,6 +8,7 @@ Plugin for sublime text to get your job done faster and avoid repetitive work.
     - `cd ~/.config/sublime-text-3/Packages`
 2. clone plugin into SublimeText's Package folder
     - `git clone https://github.com/textkeu/sublimetext_source-code-generator.git`
+
 ### Window
 1. open your SublimeText application
 2. From Menu, select option **Preferences** / **Browse Packages**
@@ -17,41 +18,41 @@ Plugin for sublime text to get your job done faster and avoid repetitive work.
 # How to use
 1. Make your source code template file in **SublimeText's_Package_folder**/sublimetext_source-code-generator/templates/
     * For Example :  **HTML/html.tmpl**
-```html
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="css_path.css">
-    </head>
-    <body>
-    <script type="text/javascript" src="js_path.js"></script>
-    </body>
-</html>
+    ```html
+    <!DOCTYPE html>
+    <html lang="ja">
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+            <link rel="stylesheet" type="text/css" href="css_path.css">
+        </head>
+        <body>
+        <script type="text/javascript" src="js_path.js"></script>
+        </body>
+    </html>
 
-```
+    ```
 
 2. Add template to Sublimetext's menu into **SublimeText's_Package_folder**/sublimetext_source-code-generator/Context.sublime-menu
     * For Example :  
-````
-[{
-  "caption": "Source Code Generator",
-  "children": [
-    {
-      "caption": "HTML",
+    ````
+    [{
+      "caption": "Source Code Generator",
       "children": [
-                {
-                  "caption": "html",
-                  "command": "source_code_generator",
-                    "args": { "filepath": "/templates/HTML/html.tmpl"}
-                }
-            ]
-    }
-  ]
-}]
+        {
+          "caption": "HTML",
+          "children": [
+                    {
+                      "caption": "html",
+                      "command": "source_code_generator",
+                        "args": { "filepath": "/templates/HTML/html.tmpl"}
+                    }
+                ]
+        }
+      ]
+    }]
 
-````
+    ````
 3. Generate source code
     * Click right button > hover in option **Source Code Generator**
     * hover into what you want to generate
